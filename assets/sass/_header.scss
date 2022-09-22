@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.header__container {
+    @extend%flex;
+    height: 8vh;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 5vw;
+    width: 16%;
+}
